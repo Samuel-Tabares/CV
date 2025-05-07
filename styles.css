@@ -314,7 +314,14 @@ hr {
     z-index: 1;
     pointer-events: none;
 }
+.education-certificate a {
+    color: #3498db;
+    font-weight: 500;
+}
 
+.education-certificate a:hover {
+    text-decoration: underline;
+}
 /* Triángulos minimalistas */
 .triangle {
     position: absolute;
@@ -323,6 +330,7 @@ hr {
     pointer-events: none;
     z-index: 1;
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    will-change: transform, opacity;
 }
 
 /* Fondo minimalista */
