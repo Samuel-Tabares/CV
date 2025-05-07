@@ -363,3 +363,38 @@ hr {
         opacity: 0;
     }
 }
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 48px; /* Reducir para tablets */
+    }
+    
+    .header {
+        padding: 30px 20px; /* Reducir el padding */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header h1 {
+        font-size: 36px; /* Reducir más para móviles */
+    }
+    
+    .estudiante {
+        font-size: 16px; /* Reducir también el subtítulo */
+    }
+    
+    .header {
+        padding: 25px 15px;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .header h1 {
+        font-size: 28px; /* Tamaño mínimo para móviles muy pequeños */
+    }
+    
+    .profile-links {
+        flex-direction: column; /* Apilar los enlaces en móvil */
+        gap: 10px;
+    }
+}
